@@ -1,8 +1,8 @@
-package com.social.service.impl;
+package com.shop_online.service.impl;
 
-import com.social.entity.IndexRecommend;
-import com.social.mapper.IndexRecommendMapper;
-import com.social.service.IndexRecommendService;
+import com.shop_online.entity.IndexRecommend;
+import com.shop_online.mapper.IndexRecommendMapper;
+import com.shop_online.service.IndexRecommendService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

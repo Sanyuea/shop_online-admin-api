@@ -1,6 +1,6 @@
-package com.social.mapper;
+package com.shop_online.mapper;
 
-import com.social.entity.ManagerRole;
+import com.shop_online.entity.ManagerRole;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

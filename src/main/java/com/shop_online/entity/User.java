@@ -1,4 +1,4 @@
-package com.social.entity;
+package com.shop_online.entity;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.IdType;
@@ -6,9 +6,7 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.baomidou.mybatisplus.annotation.TableName;
-
 import java.time.LocalDateTime;
-
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
@@ -16,10 +14,10 @@ import lombok.Setter;
 
 /**
  * <p>
- *
+ * 
  * </p>
  *
- * @author ycshang
+ * @author yule
  * @since 2023-11-28
  */
 @Getter
@@ -62,7 +60,7 @@ public class User {
 
     @ApiModelProperty("性别(0-男，1-女)")
     @TableField("gender")
-    private Integer gender;
+    private Byte gender;
 
     @ApiModelProperty("职业")
     @TableField("profession")
@@ -87,7 +85,7 @@ public class User {
     @ApiModelProperty("逻辑删除(0-未删除，1-已删除)")
     @TableField("delete_flag")
     @TableLogic
-    private Integer deleteFlag;
+    private Byte deleteFlag;
 
     @ApiModelProperty("创建时间")
     @TableField(value = "create_time", fill = FieldFill.INSERT)

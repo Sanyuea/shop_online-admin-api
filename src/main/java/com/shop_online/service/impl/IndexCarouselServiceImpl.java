@@ -1,8 +1,8 @@
-package com.social.service.impl;
+package com.shop_online.service.impl;
 
-import com.social.entity.IndexCarousel;
-import com.social.mapper.IndexCarouselMapper;
-import com.social.service.IndexCarouselService;
+import com.shop_online.entity.IndexCarousel;
+import com.shop_online.mapper.IndexCarouselMapper;
+import com.shop_online.service.IndexCarouselService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

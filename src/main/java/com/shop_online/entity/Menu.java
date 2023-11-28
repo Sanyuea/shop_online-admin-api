@@ -1,4 +1,4 @@
-package com.social.entity;
+package com.shop_online.entity;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.IdType;
@@ -90,4 +90,8 @@ public class Menu {
     @ApiModelProperty("更新时间")
     @TableField(value = "update_time", fill = FieldFill.INSERT_UPDATE)
     private LocalDateTime updateTime;
+
+    @ApiModelProperty("是否隐藏（0:true,1fasle）")
+    @TableField("hide")
+    private Byte hide;
 }

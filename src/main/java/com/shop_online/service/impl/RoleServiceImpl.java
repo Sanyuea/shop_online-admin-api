@@ -1,8 +1,8 @@
-package com.social.service.impl;
+package com.shop_online.service.impl;
 
-import com.social.entity.Role;
-import com.social.mapper.RoleMapper;
-import com.social.service.RoleService;
+import com.shop_online.entity.Role;
+import com.shop_online.mapper.RoleMapper;
+import com.shop_online.service.RoleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

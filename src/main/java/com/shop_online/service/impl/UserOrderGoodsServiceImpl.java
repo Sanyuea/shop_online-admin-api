@@ -1,8 +1,8 @@
-package com.social.service.impl;
+package com.shop_online.service.impl;
 
-import com.social.entity.UserOrderGoods;
-import com.social.mapper.UserOrderGoodsMapper;
-import com.social.service.UserOrderGoodsService;
+import com.shop_online.entity.UserOrderGoods;
+import com.shop_online.mapper.UserOrderGoodsMapper;
+import com.shop_online.service.UserOrderGoodsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

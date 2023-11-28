@@ -1,4 +1,4 @@
-package com.social.entity;
+package com.shop_online.entity;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.IdType;

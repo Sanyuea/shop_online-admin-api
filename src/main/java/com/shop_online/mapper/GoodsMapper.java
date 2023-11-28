@@ -1,6 +1,6 @@
-package com.social.mapper;
+package com.shop_online.mapper;
 
-import com.social.entity.Goods;
+import com.shop_online.entity.Goods;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

@@ -1,6 +1,6 @@
-package com.social.service;
+package com.shop_online.service;
 
-import com.social.entity.UserOrderGoods;
+import com.shop_online.entity.UserOrderGoods;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
