@@ -62,8 +62,8 @@ aliyun:
     # oss对外服务的访问域名
     endpoint: oss-cn-hangzhou.aliyuncs.com
     # 访问身份验证中用到用户标识
-    accessKeyId: LTAI5tFoq
+    accessKeyId: LTAI5tHXQyJ67amUrP999rR1
     # 用户用于加密签名字符串和oss用来验证签名字符串的密钥
-    accessKeySecret: 9dMhgTOSI862
+    accessKeySecret: qrmzSSO6jeCxD3XZj0fv3L2n8T3BIL
     # oss的存储空间
-    bucketName: tnx
+    bucketName: shop-online-yl

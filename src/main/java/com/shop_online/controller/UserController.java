@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 
 /**
@@ -33,9 +34,16 @@ public class UserController {
 
     @PostMapping("page")
     @ApiOperation("分页")
-    @PreAuthorize("hasAuthority('sys:user:list')")
+//    @PreAuthorize("hasAuthority('sys:user:list')")
     public Result<PageResult<UserVO>> page(@RequestBody @Valid Query query){
         PageResult<UserVO> result = userService.getPage(query);
         return Result.ok(result);
+    }
+
+    @PostMapping("export")
+    @ApiOperation("导出用户信息")
+    public Result<String> export(@RequestBody Query query, HttpServletResponse response){
+        userService.exportUserInfo(query,response);
+        return Result.ok();
     }
 }

@@ -5,7 +5,7 @@ spring:
   datasource: # ????????
     type: com.zaxxer.hikari.HikariDataSource          # ??????HikariCP
     driver-class-name: com.mysql.cj.jdbc.Driver       # mysql ??
-    url: jdbc:mysql://47.94.41.14:3306/shop?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=GMT%2B8 # ?8?
+    url: jdbc:mysql://127.0.0.1:3307/shop?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=GMT%2B8 # ?8?
     username: root
     password: 123456
     hikari:
@@ -24,8 +24,8 @@ spring:
     #redis数据库索引(默认为0)
     database: 0
     #redis服务器地址
-    host: 47.94.41.14
+    host: 127.0.0.1
     #redis服务器连接端口
     port: 6379
     #redis连接密码
-    password: 123456
+#    password: 123456
